@@ -15,6 +15,7 @@ OFL develops machine-readable facilitation patterns, evaluation frameworks, and 
 | [**synthesis**](https://github.com/Open-Facilitation-Library/synthesis) | Knowledge base, evaluation frameworks, research references |
 | [**skills**](https://github.com/Open-Facilitation-Library/skills) | Machine-readable facilitation patterns (YAML) |
 | [**cross-pollination**](https://github.com/Open-Facilitation-Library/cross-pollination) | Opinion exposure algorithms and experiments |
+| [**evals**](https://github.com/Open-Facilitation-Library/evals) | Evaluation frameworks — Why-How-Who conversation signatures |
 
 ## The Why-How-Who Framework
 
