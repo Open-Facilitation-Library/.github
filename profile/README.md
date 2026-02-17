@@ -2,37 +2,24 @@
 
 Open standards for AI-assisted facilitation and deliberative democracy.
 
-> "GitHub for facilitation workflows" — machine-readable, composable facilitation methodologies that AI systems can understand and apply.
-
 ## What is OFL?
 
-OFL develops machine-readable facilitation patterns, evaluation frameworks, and a shared knowledge base for the deliberative democracy community. Patterns are defined in YAML using the **Why-How-Who framework**, making them composable and interpretable by AI facilitators.
+OFL develops open standards for AI agents that facilitate group conversations — deliberation, research interviews, dispute resolution, innovation workshops, and more. The project spans three complementary layers:
 
-## Repositories
+- **[Skills](https://github.com/Open-Facilitation-Library/skills)** — Executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for platforms like Harmonica or OpenClaw
+- **[Workflows](https://github.com/Open-Facilitation-Library/workflows)** — How 14 real platforms orchestrate AI agents to facilitate group processes
+- **[Synthesis](https://github.com/Open-Facilitation-Library/synthesis)** — Knowledge base, research watchlist, and automated paper discovery via Semantic Scholar API
 
-| Repository | Description |
-|-----------|-------------|
-| [**synthesis**](https://github.com/Open-Facilitation-Library/synthesis) | Knowledge base, evaluation frameworks, research references |
-| [**skills**](https://github.com/Open-Facilitation-Library/skills) | Machine-readable facilitation patterns (YAML) |
-| [**cross-pollination**](https://github.com/Open-Facilitation-Library/cross-pollination) | Opinion exposure algorithms and experiments |
-| [**evals**](https://github.com/Open-Facilitation-Library/evals) | Evaluation frameworks — Why-How-Who conversation signatures |
+Plus supporting repos:
 
-## The Why-How-Who Framework
+- **[Evals](https://github.com/Open-Facilitation-Library/evals)** — Why-How-Who evaluation framework for assessing AI facilitator performance
+- **[Cross-Pollination](https://github.com/Open-Facilitation-Library/cross-pollination)** — Opinion exposure algorithms and experiments
 
-Every facilitation pattern follows a three-part structure:
+## Documented Workflows
 
-- **Why** — Purpose and outcomes (agreement building, ideation, conflict resolution)
-- **How** — Process and techniques (format, interaction mode, question types, timing)
-- **Who** — Participants and dynamics (group size, roles, power dynamics)
+Agent workflow definitions for platforms with AI actively facilitating real human participants:
 
-## Current Patterns
-
-| Pattern | Category | Description |
-|---------|----------|-------------|
-| Cross-Pollination | Deliberative | Expose participants to diverse opinions beyond vote aggregation |
-| Delphi Method | Deliberative | Iterative expert consensus through structured rounds |
-| Six Thinking Hats | Generative | Parallel thinking modes for ideation |
-| Retrospective | Generative | Team reflection and improvement |
+Anthropic Interviewer · Bot Mediation · ComplexChaos · CrowdSmart · Habermas Machine · Harmonica · Juno · Listen · Orchidea · Outset · Parlay Ideas · Remesh · Talk to the City · Thinkscape
 
 ## Links
 
