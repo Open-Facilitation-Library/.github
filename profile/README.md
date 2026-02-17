@@ -23,6 +23,6 @@ Anthropic Interviewer · Bot Mediation · ComplexChaos · CrowdSmart · Habermas
 
 ## Links
 
-- [Documentation](https://open-facilitation-library.github.io/synthesis-quartz/)
+- [Wiki](https://wiki.openfac.org)
 - [Substack](https://openfac.substack.com)
 - [Giveth](https://giveth.io/project/open-facilitation-library)
