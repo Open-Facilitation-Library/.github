@@ -21,6 +21,10 @@ Agent workflow definitions for platforms with AI actively facilitating real huma
 
 Anthropic Interviewer · Bot Mediation · ComplexChaos · CrowdSmart · Habermas Machine · Harmonica · Juno · Listen · Orchidea · Outset · Parlay Ideas · Remesh · Talk to the City · Thinkscape
 
+## Related work
+
+- **[weval](https://weval.org)** (Collective Intelligence Project) — an open, CC0 platform for public-domain LLM evals, pairing a portable [blueprint format](https://github.com/weval-org/app/blob/main/docs/BLUEPRINT_FORMAT.md) with a transparent, multi-judge [scoring methodology](https://github.com/weval-org/app/blob/main/docs/METHODOLOGY.md). OFL's method and eval specs aim to interoperate — evals as a shared commons.
+
 ## Links
 
 - [Wiki](https://wiki.openfac.org)
