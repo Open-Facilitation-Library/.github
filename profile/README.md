@@ -15,7 +15,7 @@ Around the specs sits the research and reference they draw on: **patterns** (fac
 
 ## The eval commons
 
-The distinctive piece is the evals. Anyone can publish a method; what is hard, and what OFL builds, is an open, **expert-calibrated** definition of whether a facilitation ran well. Facilitators judge real facilitator turns, and those judgments calibrate the rubrics every AI facilitator is measured against. The direction is for that commons to be **owned and governed by the facilitators who build it**, not expertise extracted by a platform. See [Facilitators](https://openfac.org/facilitators/).
+The distinctive piece is the evals. Anyone can publish a method; what is hard, and what OFL builds, is an open, **expert-calibrated** definition of whether a facilitation ran well. Facilitators judge real facilitator turns, and those judgments calibrate the rubrics every AI facilitator is measured against. The direction is for that commons to be **owned and governed by the facilitators who build it**, not expertise extracted by a platform. See [our page for Facilitators](https://openfac.org/facilitators/).
 
 ## Repositories
 
