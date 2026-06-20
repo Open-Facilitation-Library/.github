@@ -1,32 +1,30 @@
 # Open Facilitation Library
 
-Open standards for AI-assisted facilitation and deliberative democracy.
+Open-source building blocks for agentic facilitation.
 
 ## What is OFL?
 
-OFL develops open standards for AI agents that facilitate group conversations — deliberation, research interviews, dispute resolution, innovation workshops, and more. The project spans three complementary layers:
+AI is starting to facilitate real group conversations: deliberation, research interviews, dispute resolution, innovation workshops. OFL is the open commons for doing it well, so teams don't each rebuild the facilitator from scratch.
 
-- **[Skills](https://github.com/Open-Facilitation-Library/skills)** — Executable agent skills following the [Agent Skills specification](https://agentskills.io/specification), designed for platforms like Harmonica or OpenClaw
-- **[Workflows](https://github.com/Open-Facilitation-Library/workflows)** — How 14 real platforms orchestrate AI agents to facilitate group processes
-- **[Synthesis](https://github.com/Open-Facilitation-Library/synthesis)** — Knowledge base, research watchlist, and automated paper discovery via Semantic Scholar API
+The core artifact is the **method spec**: a portable, forkable definition of a facilitation method that any capable runtime can execute. Harmonica is the reference implementation, but method specs run anywhere and the evals speak [weval](https://weval.org)'s open format, so nothing is locked to one platform. Every spec has two halves:
 
-Plus supporting repos:
+- **Protocol** — the method itself: stages, roles, facilitator prompts, and what carries between them.
+- **Evals** — how you know it ran well: open rubrics calibrated by expert facilitators, interoperable with weval's eval format.
 
-- **[Evals](https://github.com/Open-Facilitation-Library/evals)** — Why-How-Who evaluation framework for assessing AI facilitator performance
-- **[Cross-Pollination](https://github.com/Open-Facilitation-Library/cross-pollination)** — Opinion exposure algorithms and experiments
+Around the specs sits the research and reference they draw on: **patterns** (facilitation methods described with the Why-How-Who framework), **teardowns** (how real platforms facilitate today), and a shared **knowledge base**.
 
-## Documented Workflows
+## Repositories
 
-Agent workflow definitions for platforms with AI actively facilitating real human participants:
-
-Anthropic Interviewer · Bot Mediation · ComplexChaos · CrowdSmart · Habermas Machine · Harmonica · Juno · Listen · Orchidea · Outset · Parlay Ideas · Remesh · Talk to the City · Thinkscape
+- **[evals](https://github.com/Open-Facilitation-Library/evals)** — the Why-How-Who evaluation framework and the eval commons; human-calibrated judging of facilitator performance.
+- **[synthesis](https://github.com/Open-Facilitation-Library/synthesis)** — knowledge base, research watchlist, and automated paper discovery.
+- **[cross-pollination](https://github.com/Open-Facilitation-Library/cross-pollination)** — opinion-exposure algorithms and experiments for surfacing disagreement.
+- **[workflows](https://github.com/Open-Facilitation-Library/workflows)** — teardowns of how real platforms orchestrate AI facilitation agents.
+- **[skills](https://github.com/Open-Facilitation-Library/skills)** — executable agent skills (Agent Skills specification).
 
 ## Related work
 
-- **[weval](https://weval.org)** (Collective Intelligence Project) — an open, CC0 platform for public-domain LLM evals, pairing a portable [blueprint format](https://github.com/weval-org/app/blob/main/docs/BLUEPRINT_FORMAT.md) with a transparent, multi-judge [scoring methodology](https://github.com/weval-org/app/blob/main/docs/METHODOLOGY.md). OFL's method and eval specs aim to interoperate — evals as a shared commons.
+- **[weval](https://weval.org)** (Collective Intelligence Project) — an open, CC0 platform for public LLM evals. OFL's eval specs interoperate, so facilitation evals can run as shared, public-domain blueprints.
 
 ## Links
 
-- [Wiki](https://wiki.openfac.org)
-- [Substack](https://openfac.substack.com)
-- [Giveth](https://giveth.io/project/open-facilitation-library)
+[Wiki](https://wiki.openfac.org) · [Substack](https://openfac.substack.com) · [Giveth](https://giveth.io/project/open-facilitation-library)
