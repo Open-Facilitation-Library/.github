@@ -14,9 +14,9 @@ jobs:
       - name: Reject non-clickable branch references
         shell: bash
         run: |
-          node <<'NODE'
-          const { readdir, readFile } = require("node:fs/promises");
-          const path = require("node:path");
+          node --input-type=module <<'NODE'
+          import { readdir, readFile } from "node:fs/promises";
+          import path from "node:path";
 
           const ignoredDirectories = new Set([".git", "node_modules"]);
           const bareBranchReference =
