@@ -1,4 +1,4 @@
-name: Clickable documentation branch references
+name: OFL documentation policy
 
 on:
   workflow_call:
@@ -11,6 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Reject private Harmonica ticket references
+        shell: bash
+        run: |
+          if git grep -n -i -E '(^|[^[:alnum:]])HAR-[0-9]+' -- .; then
+            echo "Harmonica Linear ticket IDs must stay in Harmonica repositories."
+            exit 1
+          fi
+
+          if git ls-files | grep -i -E '(^|[^[:alnum:]])HAR-[0-9]+'; then
+            echo "Tracked file paths must not contain Harmonica Linear ticket IDs."
+            exit 1
+          fi
       - name: Reject non-clickable branch references
         shell: bash
         run: |
